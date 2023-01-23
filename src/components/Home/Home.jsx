@@ -2,6 +2,8 @@ import React from "react";
 import video from "../../assets/Blue.mp4";
 import "./home.css";
 import { SlLocationPin } from "react-icons/sl";
+import { HiFilter } from "react-icons/hi";
+import { BsInstagram } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -26,7 +28,6 @@ const Home = () => {
             <label htmlFor="date">Enter the date</label>
             <div className="input flex">
               <input type="date" />
-              
             </div>
           </div>
           <div className="priceInput">
@@ -35,8 +36,23 @@ const Home = () => {
               <h3 className="total">$500</h3>
             </div>
             <div className="input flex">
-              <input type="range" max="5000" min="500"/>
+              <input type="range" max="5000" min="500" />
             </div>
+          </div>
+          <div className="searchOptions flex">
+            <HiFilter className="icon" />
+            <span>MORE FILTERS</span>
+          </div>
+        </div>
+        <div className="homeFooterIcons flex">
+          <div className="rightIcons">
+            <BsInstagram className="icon" />
+            <BsInstagram className="icon" />
+            <BsInstagram className="icon" />
+          </div>
+          <div className="leftIcons">
+            <BsInstagram className="icon" />
+            <BsInstagram className="icon" />
           </div>
         </div>
       </div>
