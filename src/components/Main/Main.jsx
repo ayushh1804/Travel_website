@@ -15,78 +15,78 @@ const data = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus",
   },
 
-  // {
-  //   id:2,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:3,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:4,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:5,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:6,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:7,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:8,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // },
-  // {
-  //   id:9,
-  //   imgSrc : img,
-  //   destTitle: 'Bora Bora',
-  //   location: "New Zealand",
-  //   grade: "cultural relax",
-  //   fees : '$700',
-  //   description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
-  // }
+  {
+    id:2,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:3,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:4,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:5,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:6,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:7,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:8,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  },
+  {
+    id:9,
+    imgSrc : img,
+    destTitle: 'Bora Bora',
+    location: "New Zealand",
+    grade: "cultural relax",
+    fees : '$700',
+    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos totam eligendi quia, aut molestias non dicta odio, velit obcaecati quam deserunt esse! Voluptatibus aliquam eum consectetur, quas exercitationem libero ratione, dolores id excepturi ipsam facere corporis. Repellendus, numquam amet? Adipisci minus hic dignissimos nisi sapiente facere error in libero ipsa? Consectetur velit blanditiis id quasi cupiditate magnam sint doloremque ut vitae quos rerum, et animi, ea tenetur explicabo. Consequatur aperiam at sed quas corrupti sapiente soluta saepe nesciunt, consectetur quos a maiores hic qui iusto quae deleniti delectus vel tempora, quaerat est ad laborum. Aliquid sequi praesentium placeat natus"
+  }
 ];
 
 const Main = () => {
@@ -96,7 +96,7 @@ const Main = () => {
         <h3 className="title">Most Visited Destination</h3>
       </div>
 
-      <div className="setContent grid">
+      <div className="secContent grid">
         {data.map(
           ({ id, imgSrc, descTitle, location, grade, fees, description }) => {
             return (
