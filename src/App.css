@@ -26,6 +26,11 @@
   --bodyColor: rgb(240, 240, 246);
   --cardBg: rgb(225, 225, 235);
 }
+html{
+  scroll-behavior: smooth;
+}
+
+
 a {
   text-decoration: none;
 }
