@@ -138,9 +138,11 @@
       }
       .footerSocials {
         column-gap: 0.5rem;
+        
         .icon {
           color: var(--blackColor);
           font-size: 20px;
+          margin-right: 6px;
           &:hover {
             background: var(--PrimaryColor);
           }
@@ -178,6 +180,19 @@
                     }
                 }
             }
+        }
+      }
+      .footerDiv{
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--SecondaryColor);
+        padding: .5rem 2rem;
+        small{
+          font-size: 10px;
+          background: var(--whiteColor);
         }
       }
     }
