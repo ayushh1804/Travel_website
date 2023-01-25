@@ -1,23 +1,19 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BsFillDoorClosedFill } from "react-icons/bs";
 import { SiYourtraveldottv } from "react-icons/si";
 import { BsToggles } from "react-icons/bs";
 import "./navbar.css";
 
-
-
-
 const Navbar = () => {
-  const [active , setActive]  = useState('navBar');
+  const [active, setActive] = useState("navBar");
 
-const showNavbar = () => {
-  setActive('navBar activeNavbar');
-}
+  const showNavbar = () => {
+    setActive("navBar activeNavbar");
+  };
 
-
-const hideNavbar = () => {
-  setActive('navBar');
-}
+  const hideNavbar = () => {
+    setActive("navBar");
+  };
 
   return (
     <section className="navBarSection">

@@ -103,7 +103,8 @@
 }
 
 @media screen and (min-width: 769px) {
-  .toggleNavbar, .closeNavbar {
+  .toggleNavbar,
+.closeNavbar {
     display: none;
   }
   .header {

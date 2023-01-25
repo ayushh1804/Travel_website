@@ -26,10 +26,9 @@
   --bodyColor: rgb(240, 240, 246);
   --cardBg: rgb(225, 225, 235);
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-
 
 a {
   text-decoration: none;
@@ -92,21 +91,18 @@ body {
   background: var(--bodyColor);
 }
 
-
 /* //media queries */
-@media screen and (min-width: 1240px){
-  .container{
+@media screen and (min-width: 1240px) {
+  .container {
     width: 80% !important;
     margin: auto !important;
-
-
   }
-  .section{
+  .section {
     padding: 6rem 0 4rem;
   }
 }
-@media screen and (min-width: 2560px){
-  body{
+@media screen and (min-width: 2560px) {
+  body {
     zoom: 1.7;
   }
 }

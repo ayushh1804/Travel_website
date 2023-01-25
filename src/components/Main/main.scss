@@ -83,57 +83,77 @@
             color: black;
             font-size: 24px;
           }
-          .name{
+          .name {
             color: var(--textColor);
             font-weight: 400;
             font-size: 14px;
           }
         }
-        .fees{
-            width: 100%;
-            justify-content: space-between;
-            padding: 1rem;
-            margin: 1rem 0;
-            
-            .grade{
-                color: var(--textColor);
-                max-width: 100px;
-                line-height: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+        .fees {
+          width: 100%;
+          justify-content: space-between;
+          padding: 1rem;
+          margin: 1rem 0;
 
-                small{
-                    text-align: center;
-                    background: var(--gradientColor);
-                    border-radius: 1rem;
-                    color: var(--whiteColor);
-                    padding: 1px 10px;
-                    font-size: 10px;
-                    margin-left: 3px;
-
-                }
-            }
-            .price{
-                font-size: 2rem;
-
-            }
-        }.desc{
-            font-size: 14px;
+          .grade {
             color: var(--textColor);
-            font-weight: 500;
+            max-width: 100px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            small {
+              text-align: center;
+              background: var(--gradientColor);
+              border-radius: 1rem;
+              color: var(--whiteColor);
+              padding: 1px 10px;
+              font-size: 10px;
+              margin-left: 3px;
+            }
+          }
+          .price {
+            font-size: 2rem;
+          }
         }
-        .btn{
-            margin-top: 1rem;
-            color: white;
-            font-weight: 600;
-            justify-content: space-between;
-            gap: .5rem;
+        .desc {
+          font-size: 14px;
+          color: var(--textColor);
+          font-weight: 500;
+        }
+        .btn {
+          margin-top: 1rem;
+          color: white;
+          font-weight: 600;
+          justify-content: space-between;
+          gap: 0.5rem;
         }
       }
     }
   }
 }
 
-
 //media queries
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 1.5rem;
+    &::after {
+      width: 155px !important;
+    }
+  }
+  .secContent {
+    grid-template-columns: repeat(2, 1fr);
+    .singleDestination {
+      height: auto;
+    }
+  }
+}
+@media screen and (min-width: 840px) {
+  .secContent {
+    grid-template-columns: repeat(3, 1fr);
+    .singleDestination {
+      height: auto;
+    }
+  }
+}
