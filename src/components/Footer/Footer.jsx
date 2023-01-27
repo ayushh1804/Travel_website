@@ -44,7 +44,7 @@ const Footer = () => {
             <div data-aos="fade-up" className="footerParagraph">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
               doloremque animi praesentium sapiente? Voluptatem molestias eum
-              magni eligendi rem adipisci?
+              magni eligendi rem adipisci?fgfgfghghg
             </div>
             <div data-aos="fade-up" className="footerSocials">
               <RiMailSendLine className="icon" />
