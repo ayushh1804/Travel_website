@@ -162,6 +162,7 @@
 @media screen and (min-width: 500px) {
   .home .homeContent .textDiv .smallText {
     font-size: 16px;
+    color: white;
   }
   .home .homeContent .textDiv .homeTitle {
     position: relative;
@@ -169,6 +170,7 @@
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+    color: white;
   }
   .home .homeContent .textDiv .homeTitle::after {
     position: absolute;

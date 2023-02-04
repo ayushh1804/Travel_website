@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import video from "../../assets/Blue.mp4";
+import video from "../../assets/footervideo.mp4";
 import { RiMailSendLine } from "react-icons/ri";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { useEffect } from "react";
@@ -29,8 +29,8 @@ const Footer = () => {
               placeholder="Enter Email Address"
             />
             <button data-aos="fade-up" className="btn flex" type="submit">
-              SEND
-              <RiMailSendLine className="icon" />
+              <a href="mailto:abc@gmail.com">SEND</a> 
+              <RiMailSendLine className="icon " />
             </button>
           </div>
         </div>
@@ -129,9 +129,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="footerDiv flex">
-            <small>Best Travel Website || copyright &copy; </small>
-          </div>
+          {/* <div className="footerDiv flex">
+            <small>copyright &copy; </small>
+          </div> */}
         </div>
       </div>
     </section>

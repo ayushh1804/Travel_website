@@ -53,7 +53,7 @@ const Home = () => {
             <span>MORE FILTERS</span>
           </div>
         </div>
-        <div data-aos="fade-up" className="homeFooterIcons flex">
+        {/* <div data-aos="fade-up" className="homeFooterIcons flex">
           <div className="rightIcons">
             <BsInstagram className="icon" />
             <BsInstagram className="icon" />
@@ -63,7 +63,7 @@ const Home = () => {
             <BsInstagram className="icon" />
             <BsInstagram className="icon" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
