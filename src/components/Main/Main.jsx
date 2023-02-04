@@ -2,10 +2,13 @@ import React from "react";
 import "./main.css";
 import img1 from "../../assets/tajmahal.jpg";
 import img2 from "../../assets/varanasi.jpg";
-import img3 from "../../assets/image1.jpg";
-import img4 from "../../assets/image1.jpg";
-import img5 from "../../assets/image1.jpg";
-import img6 from "../../assets/image1.jpg";
+import img3 from "../../assets/goldtemple.jpg";
+import img4 from "../../assets/jaisalmer.jpg";
+import img5 from "../../assets/redfort.jpg";
+import img6 from "../../assets/goa.jpg";
+import img7 from "../../assets/ellora.jpg";
+import img8 from "../../assets/pangong.jpeg";
+import img9 from "../../assets/hawa.jpg";
 import { MdShareLocation } from "react-icons/md";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -75,7 +78,7 @@ const data = [
   },
   {
     id: 7,
-    imgSrc: img6,
+    imgSrc: img7,
     destTitle: "Ellora Caves",
     location: "Aurangabad, IND",
     grade: "cultural relax",
@@ -85,7 +88,7 @@ const data = [
   },
   {
     id: 8,
-    imgSrc: img6,
+    imgSrc: img8,
     destTitle: "Pangong Lake",
     location: "Ladakh, IND",
     grade: "Trek and Travel",
@@ -95,7 +98,7 @@ const data = [
   },
   {
     id: 9,
-    imgSrc: img6,
+    imgSrc: img9,
     destTitle: "Hawa Mahal",
     location: "Jaipur, IND",
     grade: "cultural relax",
@@ -124,7 +127,7 @@ const Main = () => {
               <>
                 <div key={id} data-aos="fade-up" className="singleDestination">
                   <div className="imageDiv">
-                    <img src={img1} alt={descTitle} />
+                    <img src={imgSrc} alt={descTitle} />
                   </div>
                   <div className="cardInfo">
                     <h4 className="descTitle">{descTitle}</h4>

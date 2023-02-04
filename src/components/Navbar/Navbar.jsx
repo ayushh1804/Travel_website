@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="" className="logo flex">
             <h1>
               <SiYourtraveldottv className="icon" />
-              Travel
+              Wanderer.Com
             </h1>
           </a>
         </div>
