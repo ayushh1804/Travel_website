@@ -2,6 +2,9 @@ import React from "react";
 import "./footer.css";
 import video from "../../assets/footervideo.mp4";
 import { RiMailSendLine } from "react-icons/ri";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineFacebook } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -29,7 +32,7 @@ const Footer = () => {
               placeholder="Enter Email Address"
             />
             <button data-aos="fade-up" className="btn flex" type="submit">
-              <a href="mailto:abc@gmail.com">SEND</a> 
+              <a href="mailto:abc@gmail.com">SEND</a>
               <RiMailSendLine className="icon " />
             </button>
           </div>
@@ -42,15 +45,13 @@ const Footer = () => {
               </a>
             </div>
             <div data-aos="fade-up" className="footerParagraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-              doloremque animi praesentium sapiente? Voluptatem molestias eum
-              magni eligendi rem adipisci?fgfgfghghg
+            Wanderer.com offers travel insurance and travel assistance services to guide you through the unexpected and help ease your stress. We enable travelers to explore the world with confidence.
             </div>
             <div data-aos="fade-up" className="footerSocials">
               <RiMailSendLine className="icon" />
-              <RiMailSendLine className="icon" />
-              <RiMailSendLine className="icon" />
-              <RiMailSendLine className="icon" />
+              <AiOutlineInstagram className="icon" />
+              <AiOutlineFacebook className="icon" />
+              <AiFillTwitterCircle className="icon" />
             </div>
           </div>
 
@@ -88,19 +89,19 @@ const Footer = () => {
               <span className="groupTitle"> Partners</span>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Services
+                Trivago
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Insurance
+                AirBnB
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Tourism
+                Oyo Hotels
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Payment
+                Irctc Flights
               </li>
             </div>
             {/* group 3 */}
@@ -112,19 +113,19 @@ const Footer = () => {
               <span className="groupTitle"> Last Minute</span>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Services
+                Hotel Bookings
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Insurance
+                Train Bookings
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Tourism
+                Flight Bookings
               </li>
               <li className="footerList flex">
                 <IoIosArrowDroprightCircle className="icon" />
-                Payment
+                Checkin
               </li>
             </div>
           </div>
